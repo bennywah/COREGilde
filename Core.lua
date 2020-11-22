@@ -28,7 +28,7 @@ local options = {
 	},
 }
 
--- Standardeinstellungen festlegen via ACE--
+-- Standardeinstellungen festlegen via ACE --
 local defaults = {
 	profile = {
 		aktiv = true,
