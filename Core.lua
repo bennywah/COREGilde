@@ -1,7 +1,7 @@
 -- Module der Ace Library laden --
 PhoenixGilde  = LibStub("AceAddon-3.0"):NewAddon("PhoenixGilde", "AceConsole-3.0", "AceEvent-3.0", "AceHook-3.0");
 
--- Einstellunsfenster erstellen mit Ace ..
+-- Einstellunsfenster erstellen mit Ace ...
 local options = {
 	type = "group",
 	get = function(item) return PhoenixGilde.db.profile[item[#item]] end,
@@ -28,7 +28,7 @@ local options = {
 	},
 }
 
--- Standardeinstellungen festlegen --
+-- Standardeinstellungen festlegen via ACE--
 local defaults = {
 	profile = {
 		aktiv = true,
