@@ -1,5 +1,5 @@
 ## Interface: 90002
-## Title: |cffA236EFP|cff9448F1h|cff865BF2o|cff786DF4e|cff6A80F6n|cff5D92F7i|cff4FA4F9xGilde
+## Title: |cffA236EFP|cff9448F1h|cff865BF2o|cff786DF4e|cff6A80F6n|cff5D92F7i|cff4FA4F9x Gilde
 ## Author: Benny aka Mendeus
 ## Version: 1.0
 ## SavedVariables: PhoenixGildeDB
