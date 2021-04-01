@@ -89,7 +89,6 @@ end
 function PhoenixGilde:SendChatMessage(msg, chatType, language, channel)
 	if self.db.profile.aktiv then
 		if msg = "!keys" then
-			msg = msg
 		else
 			if self.db.profile.name and self.db.profile.name ~= "" then
 					if  (chatType == "GUILD" or chatType == "OFFICER") or
