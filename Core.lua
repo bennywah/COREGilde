@@ -88,12 +88,16 @@ end
 -- Funktion zum hinzufügen des Namens --
 function PhoenixGilde:SendChatMessage(msg, chatType, language, channel)
 	if self.db.profile.aktiv then
-		if self.db.profile.name and self.db.profile.name ~= "" then
-				if  (chatType == "GUILD" or chatType == "OFFICER") or
-					(self.db.profile.entwickler and chatType == "SAY")
-				then
-					msg = "[" .. self.db.profile.name .. "]: " .. msg
-				end
+		if msg = "!keys" then
+			msg = msg
+		else
+			if self.db.profile.name and self.db.profile.name ~= "" then
+					if  (chatType == "GUILD" or chatType == "OFFICER") or
+						(self.db.profile.entwickler and chatType == "SAY")
+					then
+						msg = "[" .. self.db.profile.name .. "]: " .. msg
+					end
+			end
 		end
 	end
 	self.hooks.SendChatMessage(msg, chatType, language, channel)
